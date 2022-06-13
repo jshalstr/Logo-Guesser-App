@@ -10,122 +10,122 @@
 		<level>
 			<difficulty>easy</difficulty>
 			<logoName>DREAMWORKS</logoName>
-			<imgPath>1-easy</imgPath>
+			<imgPath>logo_1_easy</imgPath>
 		</level>
 		<level>
 			<difficulty>easy</difficulty>
 			<logoName>FACEBOOK</logoName>
-			<imgPath>2-easy</imgPath>
+			<imgPath>logo_2_easy</imgPath>
 		</level>
 		<level>
 			<difficulty>easy</difficulty>
 			<logoName>FIREFOX</logoName>
-			<imgPath>3-easy</imgPath>
+			<imgPath>logo_3_easy</imgPath>
 		</level>
 		<level>
 			<difficulty>easy</difficulty>
 			<logoName>JORDAN</logoName>
-			<imgPath>4-easy</imgPath>
+			<imgPath>logo_4_easy</imgPath>
 		</level>
 				<level>
 			<difficulty>easy</difficulty>
 			<logoName>LOUIS VUITTON</logoName>
-			<imgPath>5-easy</imgPath>
+			<imgPath>logo_5_easy</imgPath>
 		</level>
 		<level>
 			<difficulty>easy</difficulty>
 			<logoName>NETFLIX</logoName>
-			<imgPath>6-easy</imgPath>
+			<imgPath>logo_6_easy</imgPath>
 		</level>
 		<level>
 			<difficulty>easy</difficulty>
 			<logoName>SUZUKI</logoName>
-			<imgPath>7-easy</imgPath>
+			<imgPath>logo_7_easy</imgPath>
 		</level>
 		<level>
 			<difficulty>easy</difficulty>
 			<logoName>YOUTUBE</logoName>
-			<imgPath>8-easy</imgPath>
+			<imgPath>logo_8_easy</imgPath>
 		</level>
 		<level>
 			<difficulty>medium</difficulty>
 			<logoName>DUNKIN DONUTS</logoName>
-			<imgPath>1-medium</imgPath>
+			<imgPath>logo_1_medium</imgPath>
 		</level>
 		<level>
 			<difficulty>medium</difficulty>
 			<logoName>GOOGLE</logoName>
-			<imgPath>2-medium</imgPath>
+			<imgPath>logo_2_medium</imgPath>
 		</level>
 		<level>
 			<difficulty>medium</difficulty>
 			<logoName>KFC</logoName>
-			<imgPath>3-medium</imgPath>
+			<imgPath>logo_3_medium</imgPath>
 		</level>
 		<level>
 			<difficulty>medium</difficulty>
 			<logoName>MICROSOFT</logoName>
-			<imgPath>4-medium</imgPath>
+			<imgPath>logo_4_medium</imgPath>
 		</level>
 		<level>
 			<difficulty>medium</difficulty>
 			<logoName>CNBC</logoName>
-			<imgPath>5-medium</imgPath>
+			<imgPath>logo_5_medium</imgPath>
 		</level>
 		<level>
 			<difficulty>medium</difficulty>
 			<logoName>PRINGLES</logoName>
-			<imgPath>6-medium</imgPath>
+			<imgPath>logo_6_medium</imgPath>
 		</level>
 		<level>
 			<difficulty>medium</difficulty>
 			<logoName>SHELL</logoName>
-			<imgPath>7-medium</imgPath>
+			<imgPath>logo_7_medium</imgPath>
 		</level>
 		<level>
 			<difficulty>medium</difficulty>
 			<logoName>TOYOTA</logoName>
-			<imgPath>8-medium</imgPath>
+			<imgPath>logo_8_medium</imgPath>
 		</level>
 		<level>
 			<difficulty>hard</difficulty>
 			<logoName>DUNKIN DONUTS</logoName>
-			<imgPath>1-hard</imgPath>
+			<imgPath>logo_1_hard</imgPath>
 		</level>
 		<level>
 			<difficulty>hard</difficulty>
 			<logoName>GOOGLE</logoName>
-			<imgPath>2-hard</imgPath>
+			<imgPath>logo_2_hard</imgPath>
 		</level>
 		<level>
 			<difficulty>hard</difficulty>
 			<logoName>KFC</logoName>
-			<imgPath>3-hard</imgPath>
+			<imgPath>logo_3_hard</imgPath>
 		</level>
 		<level>
 			<difficulty>hard</difficulty>
 			<logoName>MICROSOFT</logoName>
-			<imgPath>4-hard</imgPath>
+			<imgPath>logo_4_hard</imgPath>
 		</level>
 		<level>
 			<difficulty>hard</difficulty>
 			<logoName>CNBC</logoName>
-			<imgPath>5-hard</imgPath>
+			<imgPath>logo_5_hard</imgPath>
 		</level>
 		<level>
 			<difficulty>hard</difficulty>
 			<logoName>PRINGLES</logoName>
-			<imgPath>6-hard</imgPath>
+			<imgPath>logo_6_hard</imgPath>
 		</level>
 		<level>
 			<difficulty>hard</difficulty>
 			<logoName>SHELL</logoName>
-			<imgPath>7-hard</imgPath>
+			<imgPath>logo_7_hard</imgPath>
 		</level>
 		<level>
 			<difficulty>hard</difficulty>
 			<logoName>TOYOTA</logoName>
-			<imgPath>8-hard</imgPath>
+			<imgPath>logo_8_hard</imgPath>
 		</level>
 	</levels>
 </GameInfo>

@@ -60,9 +60,7 @@ namespace Logo_Guesser
 
                         if (query_difficulty == difficulty)
                         {
-                            XMLExtractedValues[cnt, 0] = difficulty;
-                            XMLExtractedValues[cnt, 1] = logoName;
-                            XMLExtractedValues[cnt, 2] = imgPath;
+                            tagListCount++;
                         }
                     }
                     XMLExtractedValues = new string[tagListCount, 3];

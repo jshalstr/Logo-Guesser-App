@@ -18,8 +18,7 @@ namespace Logo_Guesser
         private int index;
         public string[,] XMLExtractedData;
         public ImageView logo;
-        public string[] imgPath;
-        public int[] levelsCompleted = new int[8];
+        public int[] RandomList = new int[8];
 
         public void SetLogo(string[,] par_XMLExtractedData, ImageView par_logo)
         {
@@ -27,20 +26,19 @@ namespace Logo_Guesser
             logo = par_logo;
         }
 
-        private void GenerateRandomList()
+        public void GenerateRandomList()
         {
             rnd = new Random();
-            for (int i = 0; i < levelsCompleted.Length; ++i)
+            for (int i = 0; i < RandomList.Length; i++)
             {
-                int randomIndex = rnd.Next(levelsCompleted.Length);
-                int temp = levelsCompleted[randomIndex];
-                levelsCompleted[randomIndex] = levelsCompleted[i];
-                levelsCompleted[i] = temp;
+                int randomIndex = rnd.Next(RandomList.Length);
+                int temp = RandomList[randomIndex];
+                RandomList[randomIndex] = RandomList[i];
+                RandomList[i] = temp;
             }
-            throw new NotImplementedException();
         }
 
-        private string IterateRandomList()
+        public string IterateRandomList()
         {
             int resourceId = (int)typeof(Resource.Drawable).GetField(XMLExtractedData[index, 2]).GetValue(null);
             logo.SetImageResource(resourceId);

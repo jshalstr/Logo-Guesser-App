@@ -108,100 +108,76 @@
     <AndroidAsset Include="Assets\GameInfo.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\1-easy.jpg" />
+    <AndroidResource Include="Resources\drawable\logo_1_easy.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\2-easy.png" />
+    <AndroidResource Include="Resources\drawable\logo_2_easy.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\3-easy.png" />
+    <AndroidResource Include="Resources\drawable\logo_3_easy.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\4-easy.png" />
+    <AndroidResource Include="Resources\drawable\logo_4_easy.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\5-easy.png" />
+    <AndroidResource Include="Resources\drawable\logo_5_easy.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\6-easy.png" />
+    <AndroidResource Include="Resources\drawable\logo_6_easy.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\7-easy.png" />
+    <AndroidResource Include="Resources\drawable\logo_7_easy.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\8-easy.png" />
+    <AndroidResource Include="Resources\drawable\logo_8_easy.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\1-medium.png" />
+    <AndroidResource Include="Resources\drawable\logo_1_medium.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\2-medium.png" />
+    <AndroidResource Include="Resources\drawable\logo_2_medium.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\3-medium.png" />
+    <AndroidResource Include="Resources\drawable\logo_3_medium.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\4-medium.png" />
+    <AndroidResource Include="Resources\drawable\logo_4_medium.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\5-medium.png" />
+    <AndroidResource Include="Resources\drawable\logo_5_medium.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\6-medium.png" />
+    <AndroidResource Include="Resources\drawable\logo_6_medium.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\7-medium.png" />
+    <AndroidResource Include="Resources\drawable\logo_7_medium.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\8-medium.png" />
+    <AndroidResource Include="Resources\drawable\logo_8_medium.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\1-hard.png" />
+    <AndroidResource Include="Resources\drawable\logo_1_hard.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\2-hard.png" />
+    <AndroidResource Include="Resources\drawable\logo_2_hard.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\3-hard.png" />
+    <AndroidResource Include="Resources\drawable\logo_3_hard.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\4-hard.png" />
+    <AndroidResource Include="Resources\drawable\logo_4_hard.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\5-hard.png" />
+    <AndroidResource Include="Resources\drawable\logo_5_hard.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\6-hard.png" />
+    <AndroidResource Include="Resources\drawable\logo_6_hard.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\7-hard.png" />
+    <AndroidResource Include="Resources\drawable\logo_7_hard.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\8-hard.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\1-hard.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\2-hard.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\3-hard.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\4-hard.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\5-hard.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\6-hard.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\7-hard.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\8-hard.png" />
+    <AndroidResource Include="Resources\drawable\logo_8_hard.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
