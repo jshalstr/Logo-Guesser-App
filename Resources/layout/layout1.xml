@@ -9,17 +9,25 @@
         android:text="Easy"
         android:layout_width="match_parent"
         android:layout_height="100dp"
+       android:backgroundTint="#FF69B4"
+        android:textSize="20sp"
         android:id="@+id/button2" />
     <Button
         android:layout_marginTop="50dp"
         android:text="Medium"
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:backgroundTint="#9932CC		"
+        android:textSize="20sp"
         android:id="@+id/button1" />
     <Button
         android:layout_marginTop="50dp"
         android:text="Hard"
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:backgroundTint="#1E90FF	"
+        android:textSize="20sp"
+      
+ 
         android:id="@+id/button3" />
 </LinearLayout>

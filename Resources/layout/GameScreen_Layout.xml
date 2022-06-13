@@ -15,10 +15,14 @@
         android:id="@+id/textView1"
         android:gravity="center" />
     <Button
-        android:text="Button"
+        android:text="Back"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#ff110d0d"
+        android:textSize="14sp"
+        
         android:id="@+id/button1" />
+
     <ImageView
         android:src="@android:drawable/ic_menu_gallery"
         android:layout_width="match_parent"
@@ -29,8 +33,11 @@
         android:layout_height="wrap_content"
         android:id="@+id/editText1" />
     <Button
-        android:text="Button"
+        android:text="Submit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="#ff110d0d"
+        android:backgroundTint="#ffff00"
+        android:textSize="18sp"
         android:id="@+id/button2" />
 </LinearLayout>
