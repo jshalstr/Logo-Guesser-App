@@ -43,8 +43,8 @@ namespace Logo_Guesser
                 Console.WriteLine(ex);
                 throw ex;
             }
-
         }
+
         public string[,] ExtractXMLData(string query_difficulty)
         {
             try
@@ -87,5 +87,10 @@ namespace Logo_Guesser
                 throw ex;
             }
         }
+
+
+
+
+
     }
 }

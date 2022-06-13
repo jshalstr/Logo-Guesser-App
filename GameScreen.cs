@@ -16,11 +16,12 @@ namespace Logo_Guesser
     {
         Button btnEnter, btnExit;
         ImageView imgLogo;
-        TextView txtLogo;
         EditText edt;
         string[,] ReturnedVal;
         string answer, entry;
         Randomizer logoRnd = new Randomizer();
+        int Level;
+        ParserClass myparser;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -31,19 +32,26 @@ namespace Logo_Guesser
             btnExit = FindViewById<Button>(Resource.Id.button1);
             btnEnter = FindViewById<Button>(Resource.Id.button2);
             imgLogo = FindViewById<ImageView>(Resource.Id.imageView1);
-            txtLogo = FindViewById<TextView>(Resource.Id.textView1);
             edt = FindViewById<EditText>(Resource.Id.editText1);
 
-            ParserClass myparser = new ParserClass("GameInfo.xml", "level");
+            myparser = new ParserClass("GameInfo.xml", "level");
             myparser.ConnectXML();
             ReturnedVal = myparser.ExtractXMLData("easy");
 
             logoRnd.SetLogo(ReturnedVal, imgLogo);
-
             logoRnd.GenerateRandomList();
             answer = logoRnd.IterateRandomList();
+
+            btnExit.Click += btnExitOnClick;
             btnEnter.Click += btnStartOnClick;
         }
+
+        public void btnExitOnClick(object sender, EventArgs e)
+        {
+            Intent i = new Intent(this, typeof(MainActivity));
+            StartActivity(i);
+        }
+
 
         public void btnStartOnClick(object sender, EventArgs e)
         {

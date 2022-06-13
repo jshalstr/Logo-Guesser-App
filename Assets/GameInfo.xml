@@ -2,9 +2,21 @@
 <GameInfo>
 	<highscore>0</highscore>
 	<player>
-		<currentLevel>0</currentLevel>
-		<score>0</score>
-		<remainingTime>0</remainingTime>
+		<easy>
+			<currentLevel>0</currentLevel>
+			<score>0</score>
+			<remainingTime>0</remainingTime>
+		</easy>
+		<medium>
+			<currentLevel>0</currentLevel>
+			<score>0</score>
+			<remainingTime>0</remainingTime>
+		</medium>
+		<hard>
+			<currentLevel>0</currentLevel>
+			<score>0</score>
+			<remainingTime>0</remainingTime>
+		</hard>
 	</player>
 	<levels>
 		<level>
