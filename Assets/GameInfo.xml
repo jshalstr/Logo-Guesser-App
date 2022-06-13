@@ -91,42 +91,42 @@
 		</level>
 		<level>
 			<difficulty>hard</difficulty>
-			<logoName>DUNKIN DONUTS</logoName>
+			<logoName>JAGUAR</logoName>
 			<imgPath>logo_1_hard</imgPath>
 		</level>
 		<level>
 			<difficulty>hard</difficulty>
-			<logoName>GOOGLE</logoName>
+			<logoName>MERCEDES</logoName>
 			<imgPath>logo_2_hard</imgPath>
 		</level>
 		<level>
 			<difficulty>hard</difficulty>
-			<logoName>KFC</logoName>
+			<logoName>SPOTIFY</logoName>
 			<imgPath>logo_3_hard</imgPath>
 		</level>
 		<level>
 			<difficulty>hard</difficulty>
-			<logoName>MICROSOFT</logoName>
+			<logoName>STARBUCKS</logoName>
 			<imgPath>logo_4_hard</imgPath>
 		</level>
 		<level>
 			<difficulty>hard</difficulty>
-			<logoName>CNBC</logoName>
+			<logoName>TESLA</logoName>
 			<imgPath>logo_5_hard</imgPath>
 		</level>
 		<level>
 			<difficulty>hard</difficulty>
-			<logoName>PRINGLES</logoName>
+			<logoName>TWITTER</logoName>
 			<imgPath>logo_6_hard</imgPath>
 		</level>
 		<level>
 			<difficulty>hard</difficulty>
-			<logoName>SHELL</logoName>
+			<logoName>WENDYS</logoName>
 			<imgPath>logo_7_hard</imgPath>
 		</level>
 		<level>
 			<difficulty>hard</difficulty>
-			<logoName>TOYOTA</logoName>
+			<logoName>YAHOO</logoName>
 			<imgPath>logo_8_hard</imgPath>
 		</level>
 	</levels>

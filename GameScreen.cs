@@ -22,9 +22,10 @@ namespace Logo_Guesser
         string answer, entry, difficulty;
         Randomizer logoRnd = new Randomizer();
         Timer timer;
-        int cnt = 30;
+        int cnt = 30, score = 0;
         TextView txt;
-        int index;
+        
+
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -57,7 +58,6 @@ namespace Logo_Guesser
 
         public void btnExitOnClick(object sender, EventArgs e)
         {
-            //SaveGame();
             Intent i = new Intent(this, typeof(MainActivity));
             StartActivity(i);
         }
@@ -73,7 +73,7 @@ namespace Logo_Guesser
                 cnt = 30;
                 edt.Text = "";
                 answer = logoRnd.IterateRandomList();
-                index = logoRnd.GetIndex();
+                score += 1;
                 StartTime();
             }
             else
@@ -95,6 +95,10 @@ namespace Logo_Guesser
             if (cnt == 0)
             {
                 timer.Stop();
+
+                Intent i = new Intent(this, typeof(GameOver));
+                i.PutExtra("Score", $"{score}");
+                StartActivity(i);
             }
             else
             {
@@ -103,13 +107,6 @@ namespace Logo_Guesser
             }
         }
 
-
-        //public void SaveGame()
-        //{
-        //    ParserClass ToXML = new ParserClass("GameInfo.xml", "player");
-        //    ToXML.ConnectXML();
-        //    ToXML.SaveGameToXML(difficulty, RandomList, index);
-        //}
 
     }
 }

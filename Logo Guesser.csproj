@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Difficulty.cs" />
+    <Compile Include="GameOver.cs" />
     <Compile Include="GameScreen.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Randomizer.cs" />
@@ -190,6 +191,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\layout1.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\gameOver.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

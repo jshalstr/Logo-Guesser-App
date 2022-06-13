@@ -20,8 +20,8 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#ff110d0d"
         android:textSize="14sp"
-        
-        android:id="@+id/button1" />
+        android:id="@+id/button1"
+        android:textColor="#ffffffff" />
 
     <ImageView
         android:src="@android:drawable/ic_menu_gallery"
