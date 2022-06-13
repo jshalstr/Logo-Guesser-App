@@ -20,7 +20,8 @@ namespace Logo_Guesser
         string[,] ReturnedVal;
         string answer, entry, difficulty;
         Randomizer logoRnd = new Randomizer();
-        ParserClass myparser;
+        int index;
+        int[] RandomList;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -35,12 +36,12 @@ namespace Logo_Guesser
 
             difficulty = Intent.GetStringExtra("Difficulty");
 
-            myparser = new ParserClass("GameInfo.xml", "level");
+            ParserClass myparser = new ParserClass("GameInfo.xml", "level");
             myparser.ConnectXML();
             ReturnedVal = myparser.ExtractXMLData($"{difficulty}");
 
             logoRnd.SetLogo(ReturnedVal, imgLogo);
-            logoRnd.GenerateRandomList();
+            RandomList = logoRnd.GenerateRandomList();
             answer = logoRnd.IterateRandomList();
 
             btnExit.Click += btnExitOnClick;
@@ -49,6 +50,7 @@ namespace Logo_Guesser
 
         public void btnExitOnClick(object sender, EventArgs e)
         {
+            //SaveGame();
             Intent i = new Intent(this, typeof(MainActivity));
             StartActivity(i);
         }
@@ -62,6 +64,7 @@ namespace Logo_Guesser
             {
                 edt.Text = "";
                 answer = logoRnd.IterateRandomList();
+                index = logoRnd.GetIndex();
             }
             else
             {
@@ -69,6 +72,13 @@ namespace Logo_Guesser
                 Toast.MakeText(Application.Context, $"{entry} is wrong", ToastLength.Short).Show();
             }
         }
+
+        //public void SaveGame()
+        //{
+        //    ParserClass ToXML = new ParserClass("GameInfo.xml", "player");
+        //    ToXML.ConnectXML();
+        //    ToXML.SaveGameToXML(difficulty, RandomList, index);
+        //}
 
     }
 }

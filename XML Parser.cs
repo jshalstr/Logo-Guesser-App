@@ -44,7 +44,6 @@ namespace Logo_Guesser
                 throw ex;
             }
         }
-
         public string[,] ExtractXMLData(string query_difficulty)
         {
             try
@@ -88,9 +87,21 @@ namespace Logo_Guesser
             }
         }
 
-
-
-
+        //public void SaveGameToXML(string par_difficulty, int[] par_randomList, int par_index)
+        //{
+        //    XmlNode target = localInfo_Xml.SelectSingleNode("GameInfo/player/difficulty");
+        //    target.InnerText = par_difficulty;
+        //    target = localInfo_Xml.SelectSingleNode("GameInfo/player/currentindex");
+        //    target.InnerText = par_index.ToString();
+        //    target = localInfo_Xml.SelectSingleNode("GameInfo/player/currentlist");
+        //    target.InnerText = par_randomList.ToString();
+        //    localInfo_Xml.Save("Logo-Guesser-App/Assets/GameInfo.xml");
+            //localInfo_Xml.GetElementsByTagName("difficulty")[0].ChildNodes[0].InnerText = par_difficulty;
+            //localInfo_Xml.GetElementsByTagName("currentindex")[0].ChildNodes[0].InnerText = par_index.ToString();
+            //localInfo_Xml.GetElementsByTagName("currentlist")[0].ChildNodes[0].InnerText = par_randomList.ToString();
+            //localInfo_Xml.GetElementsByTagName("score")[0].ChildNodes[0].InnerText = par_difficulty;
+            //localInfo_Xml.GetElementsByTagName("remainingtime")[0].ChildNodes[0].InnerText = par_difficulty;
+        }
 
     }
 }

@@ -1,22 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <GameInfo>
-	<highscore>0</highscore>
+	<highscore></highscore>
 	<player>
-		<easy>
-			<currentLevel>0</currentLevel>
-			<score>0</score>
-			<remainingTime>0</remainingTime>
-		</easy>
-		<medium>
-			<currentLevel>0</currentLevel>
-			<score>0</score>
-			<remainingTime>0</remainingTime>
-		</medium>
-		<hard>
-			<currentLevel>0</currentLevel>
-			<score>0</score>
-			<remainingTime>0</remainingTime>
-		</hard>
+		<difficulty></difficulty>
+		<currentindex></currentindex>
+		<currentlist></currentlist>
+		<score></score>
+		<remainingTime></remainingTime>
 	</player>
 	<levels>
 		<level>

@@ -18,15 +18,19 @@ namespace Logo_Guesser
         private int index;
         public string[,] XMLExtractedData;
         public ImageView logo;
-        public int[] RandomList = Enumerable.Range(0, 8).ToArray();
+        private int[] RandomList = Enumerable.Range(0, 8).ToArray();
 
+        public int GetIndex()
+        {
+            return index;
+        }
         public void SetLogo(string[,] par_XMLExtractedData, ImageView par_logo)
         {
             XMLExtractedData = par_XMLExtractedData;
             logo = par_logo;
         }
 
-        public void GenerateRandomList()
+        public int[] GenerateRandomList()
         {
             rnd = new Random();
             for (int i = 0; i < RandomList.Length; i++)
@@ -36,6 +40,7 @@ namespace Logo_Guesser
                 RandomList[randomIndex] = RandomList[i];
                 RandomList[i] = temp;
             }
+            return RandomList;
         }
 
         public string IterateRandomList()
