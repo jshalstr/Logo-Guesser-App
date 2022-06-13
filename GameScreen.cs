@@ -18,9 +18,8 @@ namespace Logo_Guesser
         ImageView imgLogo;
         EditText edt;
         string[,] ReturnedVal;
-        string answer, entry;
+        string answer, entry, difficulty;
         Randomizer logoRnd = new Randomizer();
-        int Level;
         ParserClass myparser;
 
         protected override void OnCreate(Bundle savedInstanceState)
@@ -34,9 +33,11 @@ namespace Logo_Guesser
             imgLogo = FindViewById<ImageView>(Resource.Id.imageView1);
             edt = FindViewById<EditText>(Resource.Id.editText1);
 
+            difficulty = Intent.GetStringExtra("Difficulty");
+
             myparser = new ParserClass("GameInfo.xml", "level");
             myparser.ConnectXML();
-            ReturnedVal = myparser.ExtractXMLData("easy");
+            ReturnedVal = myparser.ExtractXMLData($"{difficulty}");
 
             logoRnd.SetLogo(ReturnedVal, imgLogo);
             logoRnd.GenerateRandomList();
