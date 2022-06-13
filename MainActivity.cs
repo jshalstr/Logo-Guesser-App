@@ -8,10 +8,10 @@ using Android.Content;
 
 namespace Logo_Guesser
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
+    [Activity(Label = "Logo Guesser", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
-        Button btn;
+        Button btnStart, btnExit;
     
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -20,14 +20,21 @@ namespace Logo_Guesser
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
 
-            btn = FindViewById<Button>(Resource.Id.button1);
+            btnStart = FindViewById<Button>(Resource.Id.button1);
+            btnExit = FindViewById<Button>(Resource.Id.button2);
 
-            btn.Click += btnStartOnClick;
+            btnStart.Click += btnStartOnClick;
+            btnExit.Click += Exit;
         }
         public void btnStartOnClick(object sender, EventArgs e)
         {
-            Intent i = new Intent(this, typeof(GameScreen));
+            Intent i = new Intent(this, typeof(Difficulty));
             StartActivity(i);
+        }
+
+        public void Exit(object sender, EventArgs e)
+        {
+            System.Environment.Exit(1);
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
