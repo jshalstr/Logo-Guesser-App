@@ -19,13 +19,12 @@ namespace Logo_Guesser
         ImageView imgLogo;
         EditText edt;
         string[,] ReturnedVal;
-        int[] RandomList;
         string answer, entry, difficulty;
         Randomizer logoRnd = new Randomizer();
-        ParserClass myparser;
         Timer timer;
         int cnt = 30;
         TextView txt;
+        int index;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -46,7 +45,7 @@ namespace Logo_Guesser
             ReturnedVal = myparser.ExtractXMLData($"{difficulty}");
 
             logoRnd.SetLogo(ReturnedVal, imgLogo);
-            RandomList = logoRnd.GenerateRandomList();
+            logoRnd.GenerateRandomList();
             answer = logoRnd.IterateRandomList();
 
             txt.Text = $"{cnt}";
@@ -74,6 +73,7 @@ namespace Logo_Guesser
                 cnt = 30;
                 edt.Text = "";
                 answer = logoRnd.IterateRandomList();
+                index = logoRnd.GetIndex();
                 StartTime();
             }
             else
