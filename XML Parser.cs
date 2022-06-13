@@ -96,12 +96,11 @@ namespace Logo_Guesser
         //    target = localInfo_Xml.SelectSingleNode("GameInfo/player/currentlist");
         //    target.InnerText = par_randomList.ToString();
         //    localInfo_Xml.Save("Logo-Guesser-App/Assets/GameInfo.xml");
-            //localInfo_Xml.GetElementsByTagName("difficulty")[0].ChildNodes[0].InnerText = par_difficulty;
-            //localInfo_Xml.GetElementsByTagName("currentindex")[0].ChildNodes[0].InnerText = par_index.ToString();
-            //localInfo_Xml.GetElementsByTagName("currentlist")[0].ChildNodes[0].InnerText = par_randomList.ToString();
-            //localInfo_Xml.GetElementsByTagName("score")[0].ChildNodes[0].InnerText = par_difficulty;
-            //localInfo_Xml.GetElementsByTagName("remainingtime")[0].ChildNodes[0].InnerText = par_difficulty;
-        }
-
+        //localInfo_Xml.GetElementsByTagName("difficulty")[0].ChildNodes[0].InnerText = par_difficulty;
+        //localInfo_Xml.GetElementsByTagName("currentindex")[0].ChildNodes[0].InnerText = par_index.ToString();
+        //localInfo_Xml.GetElementsByTagName("currentlist")[0].ChildNodes[0].InnerText = par_randomList.ToString();
+        //localInfo_Xml.GetElementsByTagName("score")[0].ChildNodes[0].InnerText = par_difficulty;
+        //localInfo_Xml.GetElementsByTagName("remainingtime")[0].ChildNodes[0].InnerText = par_difficulty;
+        //}
     }
 }
